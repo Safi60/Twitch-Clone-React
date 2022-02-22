@@ -1,0 +1,27 @@
+.Search {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .Search {
+    display: block;
+    padding: 55px 0 0 60px;
+    margin: 0 10px;
+  }
+  .input-m {
+    padding: 10px;
+  }
+  .glass {
+    padding: 6px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .Search {
+    padding-left: 0;
+  }
+}

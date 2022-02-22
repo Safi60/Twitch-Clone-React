@@ -1,0 +1,159 @@
+.Sidebar {
+  position: fixed;
+  top: 50px;
+  background: #efeff1;
+  height: 100vh;
+}
+
+.dark-sidebar {
+  background: #1f1f23;
+  color: #fff;
+}
+
+.title-sidebar {
+  padding: 10px 10px 8px 0px;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.stream-list {
+  padding-left: 3px;
+}
+
+.stream-list a {
+  text-decoration: none;
+}
+
+.listSideBar {
+  padding: 10px 15px 8px 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.listSideBar:hover {
+  background: #e6e6ea;
+}
+
+.imgProfile {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.streamUser {
+  flex-basis: 50%;
+  overflow: hidden;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 2px;
+}
+
+.light {
+  color: #1f1f23;
+}
+
+.dark {
+  color: #fff;
+}
+
+.gameNameSidebar {
+  width: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  font-size: 13px;
+  margin-left: 40px;
+}
+
+.light-gameName,
+.light-viewer {
+  color: #53535f;
+}
+
+.dark-gameName,
+.dark-viewer {
+  color: #adadb8;
+}
+
+.viewer {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2px;
+}
+
+.redPoint {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-right: 5px;
+  background: #eb0400;
+}
+
+.container-chanel-sidebar {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.container-chanel-sidebar > img {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.container-chanel-sidebar:hover > img {
+  background-color: #e5e5e5;
+}
+
+.mask-sidebar {
+  position: fixed;
+  padding-top: 15px;
+  width: 60px;
+  height: 100%;
+}
+
+.arrow-mask-sidebar {
+  transform: rotate(180deg);
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+.arrow-mask-sidebar:hover {
+  background-color: #e5e5e5;
+}
+
+.show-sidebar {
+  position: fixed;
+  width: 240px;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .mask-sidebar {
+    padding-top: 40px;
+  }
+  .arrow-mask-sidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .Sidebar {
+    display: none;
+  }
+}

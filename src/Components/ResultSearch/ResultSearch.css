@@ -1,0 +1,228 @@
+.ResultSearch {
+  overflow-x: hidden;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 240px;
+}
+
+.container-result {
+  width: 600px;
+  height: 630px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9047ff;
+  border-radius: 10px;
+  margin: 10px;
+  border: 15px solid #b584ff;
+}
+
+.channelResult {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.resultimg {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+  margin-top: 20px;
+}
+
+.container-streamer {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px 10px;
+  padding: 30px 40px;
+  background: rgb(213, 194, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(213, 194, 244, 1) 0%,
+    rgba(242, 233, 255, 1) 50%,
+    rgba(241, 241, 241, 1) 100%
+  );
+  border-radius: 15px 0 15px 0;
+}
+
+.usernameResult {
+  text-align: center;
+  font-size: 50px;
+  color: #000000;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+.viewResult {
+  text-align: center;
+  color: #000000;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.viewResult span {
+  font-size: 20px;
+  color: #772ce8;
+}
+
+.descriptionResult-container {
+  overflow: hidden;
+}
+
+.descriptionResult {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: center;
+  color: #772ce8;
+  overflow: hidden;
+}
+
+.container-btnresult button,
+.container-btnresult button::after {
+  width: 380px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  background: linear-gradient(45deg, transparent 5%, #4f14a8 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 1px;
+  box-shadow: 8px 0px 0px #772ce8;
+  outline: transparent;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.container-btnresult button::after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+
+  content: "REGARDER";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    45deg,
+    transparent 3%,
+    #b685ff 3%,
+    #b685ff 5%,
+    #4f14a8 5%
+  );
+  text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+  clip-path: var(--slice-0);
+}
+
+.container-btnresult button:hover {
+  transform: scale(1.05);
+}
+
+.container-btnresult button:hover::after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .ResultSearch {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container-result {
+    width: 300px;
+    height: 330px;
+    padding-bottom: 10px;
+  }
+  .channelResult {
+    font-size: 30px;
+  }
+  .container-streamer {
+    height: 150px;
+    width: 250px;
+    padding-bottom: 0;
+  }
+  .resultimg {
+    width: 75px;
+    height: 75px;
+  }
+  .usernameResult {
+    font-size: 25px;
+  }
+  .descriptionResult {
+    display: none;
+  }
+  .container-btnresult button,
+  .container-btnresult button::after {
+    width: 190px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+}

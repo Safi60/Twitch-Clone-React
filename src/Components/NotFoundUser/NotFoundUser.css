@@ -1,0 +1,62 @@
+.NotFoundUser {
+  margin: 0 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-notFoundUser {
+  display: flex;
+}
+
+.container-notFoundUser img {
+  width: 80px;
+  margin-left: 55px;
+}
+
+.container-txt-notfoundUser {
+  margin: 0 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt-notfoundUser {
+  font-size: 20px;
+  color: #53535f;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.btn-notfoundUser {
+  width: 160px;
+  color: #fff;
+  background: #9147ff;
+  padding: 7px;
+  font-size: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-notfoundUser:hover {
+  background: #772ce8;
+}
+
+@media screen and (max-width: 475px) {
+  .NotFoundUser {
+    margin: 0;
+  }
+  .container-notFoundUser {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .container-notFoundUser img {
+    margin-left: 0;
+  }
+}

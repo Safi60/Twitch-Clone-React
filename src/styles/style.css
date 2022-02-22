@@ -1,0 +1,191 @@
+.Topstream {
+  padding-top: 70px;
+}
+
+.Fortnite,
+.LeagueOfLegends,
+.JustChatting {
+  padding: 20px 0;
+}
+
+.title-gameStream {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.light-titleStream {
+  color: #0e0e10;
+}
+
+.dark-titleStream {
+  color: #fff;
+}
+
+.title-gameStream span {
+  color: #772ce8;
+}
+
+.title-gameStream span:hover {
+  color: #9050f0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.container-stream {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cardStream {
+  height: 100%;
+  margin: 5px 5px 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.containerCardStream {
+  position: relative;
+  width: 310px;
+  height: 170px;
+  background: #9147ff;
+}
+
+.cardstreamImg {
+  width: 100%;
+  height: 100%;
+  transition: all 0.1s ease-in-out;
+}
+
+.cardstreamImg:hover {
+  transform: translate(6px, -6px);
+}
+
+.cardBodyStreaming {
+  display: flex;
+  width: 300px;
+  text-align: start;
+}
+
+.imgProfileTopStream {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.container-infoStreaming {
+  margin: 0 10px;
+}
+
+.cardTitleStreaming {
+  width: 250px;
+  margin: 5px 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.cardTitleStreaming:hover,
+.topStreamUserName:hover,
+.topStreamNameGame:hover {
+  color: #774cea;
+}
+
+.topStreamUserName,
+.topStreamNameGame {
+  font-size: 13px;
+  margin: 1px 0;
+}
+
+.light-titleUserGame,
+.light-titleNameGame {
+  color: #53535f;
+}
+
+.dark-titleUserGame,
+.dark-titleNameGame {
+  color: #adadb8;
+}
+
+.container-live {
+  position: absolute;
+  pointer-events: none;
+  margin: 10px;
+  top: 0px;
+  left: 0px;
+  transition: all 0.1s ease-in-out;
+}
+
+.container-live > div {
+  text-align: center;
+  pointer-events: none;
+  padding: 0px 7px;
+  border-radius: 4px;
+  font-size: 10px;
+  background-color: #eb0400;
+  color: #fff;
+}
+
+.container-live p {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.container-nbsp {
+  pointer-events: none;
+  position: absolute;
+  margin: 10px;
+  top: 130px;
+  left: 0px;
+  transition: all 0.1s ease-in-out;
+}
+
+.container-nbsp > div {
+  padding: 2px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  border-radius: 3px;
+}
+
+.cardstreamImg:hover ~ .container-live,
+.cardstreamImg:hover ~ .container-nbsp {
+  transform: translate(6px, -6px);
+}
+
+.ResultGame {
+  padding: 80px 0 0 240px;
+  margin: 0 20px;
+}
+.gameInfo {
+  margin: 0px 20px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.titleGame {
+  padding: 30px;
+}
+
+.titleResultGame {
+  font-size: 50px;
+  margin: 5px 0;
+}
+
+.viewersResult {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 5px 0;
+}

@@ -1,0 +1,62 @@
+.NotFound {
+  margin: 0 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-notFound {
+  display: flex;
+}
+
+.container-notFound img {
+  width: 80px;
+  margin-left: 55px;
+}
+
+.container-txt-notfound {
+  margin: 0 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt-notfound {
+  font-size: 20px;
+  color: #53535f;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.btn-notfound {
+  width: 160px;
+  color: #fff;
+  background: #9147ff;
+  padding: 7px;
+  font-size: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-notfound:hover {
+  background: #772ce8;
+}
+
+@media screen and (max-width: 475px) {
+  .notFound {
+    margin: 0;
+  }
+  .container-notFound {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .container-notFound img {
+    margin-left: 0;
+  }
+}
