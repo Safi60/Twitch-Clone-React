@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+<div align="center">
+  <a href="https://github.com/Safi60/Twitch-Clone-React">
+    <img src="images/twitch-icon.png" alt="Logo" width="80" height="80">
+  </a>
+  <h1 align="center">Twitch Clone with React</h1>
+  <p align="center">
+Clone de Twitch en React qui reprend les fonctionnalités principales du service de streaming vidéo en direct : Twitch.
+  </p>
+  <a href='https://twitch-clone-safi-hanifa.netlify.app/'> Voir le projet<a/>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About The Project
 
-## Available Scripts
+Ce projet à été réalisé avec le framework React.js et en utilisant l'API fournit par Twitch.
 
-In the project directory, you can run:
+L' objectif a été de concevoir un clone reprenant les principales fonctionnalités de l'application Twitch et avec la même interface.
 
-### `npm start`
+[![Projet image 1][product-screenshot1]](https://github.com/Safi60/Twitch-Clone-React)
+[![Projet image 2][product-screenshot2]](https://github.com/Safi60/Twitch-Clone-React)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Built With
 
-### `npm test`
+Les technos utilisées :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React.js](https://reactjs.org/)
+- [Axios](https://axios-http.com/)
+- [Twitch API](https://dev.twitch.tv/)
 
-### `npm run build`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Pour utiliser ce projet, c'est très simple...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clonez le repo :
+   ```sh
+   git clone https://github.com/Safi60/Twitch-Clone-React.git
+   ```
+2. Installez les dépendances avec :
+   ```sh
+   npm install
+   ```
+3. Puis, lancer le projet :
+   ```sh
+   npm start
+   ```
 
-### `npm run eject`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fonctionnalités de l'application :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Visualisation des streams en direct, selon la catégorie de jeu, ou bien le nombre total de vues en direct.
+- Voir le nombre de spectateurs actuellement en train de regarder le stream.
+- Possibilité de rechercher un utilisateur grâce à son pseudo.
+- Mise en place d'un Dark Mode.
+- Gestions des différentes erreurs ( erreur URL, utilisateur non trouvé, ... ).
+- Navigation avec React Router.
+- Application responsive.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Technos utilisées:
 
-## Learn More
+- React.js (Manipulation des Hooks, des Routes, conception de composants réutilisables).
+- API Twitch ( les données permettant l'intégration de l'application).
+- HTML, CSS.
+- Axios (requêtes API).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contact - [@saficodeur](https://twitter.com/saficodeur) - safi.hanifa06@gmail.com
+Website - [safihanifa.com](https://www.safihanifa.com/)
 
-### Code Splitting
+Project Link: [https://github.com/Safi60/Twitch-Clone-React](https://github.com/Safi60/Twitch-Clone-React/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Safi Hanifa** - _FrontEnd Developer_ - [Safi60](https://github.com/Safi60)
 
-### Making a Progressive Web App
+<!-- images -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[product-screenshot1]: images/twitch-image.PNG
+[product-screenshot2]: images/twitch-image2.PNG
