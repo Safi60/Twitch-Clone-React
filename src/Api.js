@@ -2,8 +2,8 @@ import axios from "axios";
 
 let api = axios.create({
   headers: {
-    "Client-Id": "nxfbemvcyayzqij0ogc6q3qpm200co",
-    Authorization: "Bearer dumxg2ptlkbg8w19qv4lyknr9567id",
+    "Client-Id": "dge0rlv2435bmotyvtyx5qtu4zrie3",
+		Authorization: "Bearer qbvywl7xmb3af8zevkk98w0b5bnk3f",
   },
 });
 
